@@ -8,4 +8,22 @@ div.box {
   width: 300px;
   height: 300px;
   background-color: green;
+  /*
+  -webkit-transition-property: width height;
+  transition-property: width height;
+  -webkit-transition-property: 3s;
+  transition-duration: 3s;
+  transition-delay: 1s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  */
+  -webkit-transition: 1s width, 3s height;
+  transition: 1s width, 3s height;
+  -webkit-transition-delay: 2s;
+  transition-delay: 2s;
+}
+
+div.box:hover {
+  width: 600px;
+  height: 400px;
 }
