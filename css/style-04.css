@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.box h2 {
+  color: gray;
+  font-size: 24px;
+}
+
+div.box p {
+  color: rgb(130, 130, 130);
+  font-size: 17px;
+  font-style: italic;
+}
+
+div.box-2 {
+  margin-top: 20px;
+}
+
+div.box-2 h2 {
+  color: orange;
+  font-size: 24px;
+}
+
+div.box-2 p {
+  color: orangered;
+  font-size: 17px;
+  font-style: italic;
+}
