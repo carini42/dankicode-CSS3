@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.box {
+  width: 100%;
+  padding: 30px 2%;
+  background-color: rgb(220, 220, 220);
+  position: relative;
+}
+
+div.box p {
+  display: inline;
+  border-bottom: 2px solid green;
+  color: #444;
+  font-size: 13px;
+}
